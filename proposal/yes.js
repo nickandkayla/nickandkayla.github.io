@@ -28,12 +28,12 @@ var c = document.querySelector('canvas'),
   img,
   imgIndex = 0,
   imgArr = [
-    "/img/IMG_0247.JPG",
-    "/img/IMG_0246.JPG",
-    "/img/IMG_0245.JPG",
-		"/img/IMG_0244.JPG",
-		"/img/IMG_0096.JPG",
-		"/img/IMG_0086.JPG"
+    "img/IMG_0247.JPG",
+    "img/IMG_0246.JPG",
+    "img/IMG_0245.JPG",
+		"img/IMG_0244.JPG",
+		"img/IMG_0096.JPG",
+		"img/IMG_0086.JPG"
   ]; //strength of drag (air resistance)
 
 // Particle Class
