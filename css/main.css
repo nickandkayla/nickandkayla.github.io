@@ -38,3 +38,10 @@
   display: flex;
   justify-content: center;
 }
+.directions-header {
+  display: flex;
+  justify-content: space-between;
+}
+.directions-header ul {
+  padding: 0 20px;
+}
