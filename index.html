@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="page-header">
-      <h1>Nick and Kayla's Wedding</h1>
-      <h3>April 23, 2016</h3>
-      <h6>North Park Lodge</h6>
+    <header itemscope itemtype="http://schema.org/Event" class="page-header">
+      <h1 itemprop="name">Nick and Kayla's Wedding</h1>
+      <h3 itemprop="startDate" content="2016-04-23">April 23, 2016</h3>
+      <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <h6 itemprop="name">North Park Lodge</h6>
+      </span>
+    
+<meta itemprop="image" content="http://nickandkayla.github.io/img/home.JPG">
+<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
+<meta itemprop="name" content="Nick Burkhart and Kayla Thorn"></span>
+<meta itemprop="url" content="http://nickandkayla.github.io/">
     </header>
     <nav class="nav-links">
       <a href="./index.html">Home</a>
