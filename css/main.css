@@ -71,6 +71,10 @@
 .directions-header ul {
   padding: 0 20px;
 }
+#home-img {
+  width: 644px;
+  height: 430px;
+}
 @media (max-width: 600px) {
   .directions-header {
     
@@ -83,5 +87,9 @@
         -ms-flex-direction: column;
     
             flex-direction: column;
+  }
+  #home-img {
+    width: 322px;
+    height: 215px;
   }
 }
