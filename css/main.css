@@ -24,20 +24,15 @@
   margin: 20px 0 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-    -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
             justify-content: flex-start
@@ -53,17 +48,15 @@
   font-family: 'Georgia', serif;
 }
 .center {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.directions-header {
-  display: -webkit-box;
+.directions-header,
+.hotel-header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -78,18 +71,28 @@
   width: 644px;
   height: 430px;
 }
+.screen-wrapper {
+  margin: 10px 20%;
+}
+.hotel-logo{
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.bold{
+  font-weight: bold;
+}
+.shuttle-table{
+  margin-top: -10px;
+}
 @media (max-width: 600px) {
-  .directions-header {
-    
-    -webkit-box-orient: vertical;
-    
-    -webkit-box-direction: normal;
-    
+  .directions-header,
+  .hotel-header {
     -webkit-flex-direction: column;
-    
         -ms-flex-direction: column;
-    
             flex-direction: column;
+  }
+  .screen-wrapper {
+    margin: 10px 10px;
   }
   #home-img {
     width: 322px;
